@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="yemektarifisitesi.admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <link href="kullanici.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            font-size: large;
+            color: #000066;
+        }
+        .auto-style3 {
+            color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height: 200px; width: 800px; margin-left: auto; margin-right: auto; background-color: #ff9000">
+            <asp:Image ID="Image1" runat="server" Height="200px" Width="800px" ImageUrl="~/banner/1.jpg" />
+        </div>
+        <div style="height: 20px; width: 800px; margin-left: auto; margin-right: auto">&nbsp; </div>
+        
+        
+        <div style="height: 300px; width: 800px; margin-left: auto; margin-right: auto"> 
+            <div style=" height:auto; float:left; width: 200px; background-color:#6dc7f9; margin-left:0px">
+                <table class="auto-style1">
+                    <tr>
+                        <td class="auto-style2" style="border: medium inset #000080;"><strong>SEÇENEKLER</strong></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3" style="border: medium inset #000080;"><a href ="kategoriler.aspx"><strong>KATEGORİLER</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3" style="border: medium inset #000080;"> <a href="yemekler.aspx"> <strong>YEMEKLER</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3" style="border: medium inset #000080;"> <a href="yorumlar.aspx"> <strong>YORUMLAR</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3" style="border: medium inset #000080;"> <a href="mesajlar.aspx"> <strong>MESAJLAR</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3" style="border: medium inset #000080;"><strong>GÜNÜN YEMEĞİ</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3" style="border: medium inset #000080;"><strong>ÖNERİLER</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3" style="border: medium inset #000080;"><strong>HAKKIMIZDA</strong></td>
+                    </tr>
+                </table>
+                <br />
+            </div>
+            <div style="height: auto;float:left; width:550px; background-color:#b4e0f4; margin-left:50px">
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+
+    </form>
+</body>
+</html>
