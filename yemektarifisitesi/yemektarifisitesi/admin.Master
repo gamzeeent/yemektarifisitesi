@@ -52,13 +52,13 @@
                         <td class="auto-style3" style="border: medium inset #000080;"> <a href="mesajlar.aspx"> <strong>MESAJLAR</strong></a></td>
                     </tr>
                     <tr>
-                        <td class="auto-style3" style="border: medium inset #000080;"><strong>GÜNÜN YEMEĞİ</strong></td>
+                        <td class="auto-style3" style="border: medium inset #000080;"> <a href="gununyemegiadmin.aspx"> <strong>GÜNÜN YEMEĞİ</strong></a></td>
                     </tr>
                     <tr>
-                        <td class="auto-style3" style="border: medium inset #000080;"><strong>ÖNERİLER</strong></td>
+                        <td class="auto-style3" style="border: medium inset #000080;"> <a href="tarifler.aspx"> <strong>TARİFLER</strong></a></td>
                     </tr>
                     <tr>
-                        <td class="auto-style3" style="border: medium inset #000080;"><strong>HAKKIMIZDA</strong></td>
+                        <td class="auto-style3" style="border: medium inset #000080;"> <a href="hakkimizdaadmin.aspx"> <strong>HAKKIMIZDA</strong></a></td>
                     </tr>
                 </table>
                 <br />

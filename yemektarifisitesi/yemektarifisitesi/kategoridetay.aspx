@@ -15,6 +15,10 @@
             height: 26px;
         }
 
+        .auto-style8 {
+            text-align: center;
+        }
+
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -37,8 +41,12 @@
                 </td>
             </tr>
             <tr>
-                <td><strong>Ekleme tarihi:</strong>
-                    <asp:Label ID="Label6" runat="server" Text='<%# Eval("yemektarih") %>'></asp:Label>
+                <td class="auto-style8">
+                    <asp:Image ID="Image2" runat="server" Height="200px" ImageUrl='<%# Eval("yemekresim") %>' Width="300px" />
+                </td>
+            </tr>
+            <tr>
+                <td style="border-bottom-style: groove; border-bottom-width: thick; border-bottom-color: #FF6600"><strong>Ekleme tarihi:</strong>&nbsp;<asp:Label ID="Label6" runat="server" Text='<%# Eval("yemektarih") %>'></asp:Label>
                 </td>
             </tr>
             <tr>

@@ -32,10 +32,10 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style9"><strong>
-                    <asp:Button ID="Button1" runat="server" CssClass="auto-style8" Height="30px"  Text="+" Width="30px"   />
+                    <asp:Button ID="Button1" runat="server" CssClass="auto-style8" Height="30px"  Text="+" Width="30px" OnClick="Button1_Click1"   />
                     </strong></td>
                 <td class="auto-style10"><strong>
-                    <asp:Button ID="Button2" runat="server" CssClass="auto-style8" Height="30px"  Text="-" Width="30px"  />
+                    <asp:Button ID="Button2" runat="server" CssClass="auto-style8" Height="30px"  Text="-" Width="30px" OnClick="Button2_Click1"  />
                     </strong></td>
                 <td>MESAJ LİSTESİ</td>
             </tr>
@@ -50,7 +50,7 @@
                             <asp:Label ID="Label1" runat="server" CssClass="auto-style7" Text='<%# Eval("mesajgonderen") %>'></asp:Label>
                         </td>
                         <td class="auto-style6">
-                            &nbsp;<asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/ikon/6-512.png" Width="30px" />
+                           <a href="mesajdetay.aspx?mesajid=<%#Eval("mesajid") %>"> <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/ikon/6-512.png" Width="30px" /></a>
                         </td>
                     </tr>
                 </table>
